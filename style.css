@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'Megrim';
+    src: url(fonts/Megrim.ttf);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+html {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1440px;
+
+    margin: 0;
+    padding: 0;
+}
+
+.first_window {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1440px;
+    height: 800px;
+}
+
+.main_photo {
+    z-index: -1;
+}
+
+.vsite_head_words {
+    display: flex;
+    flex-wrap: wrap;
+
+    position: relative;
+
+    width: 1350px;
+    height: 235px;
+    bottom: 778px;
+    left: 70px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.menu_button {
+    background-image: url(images/Иконка-Выдвижное\ меню.png);
+    background-color: transparent;
+    border: none;
+    width: 30px;
+    height: 30px;
+    top: 22px;
+}
+
+.vsite_word {
+    position: relative;
+    width: 344px;
+    height: 140px;
+    left: 12px;
+    gap: 0px;
+    opacity: 0px;
+
+    top: -22px;
+
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'Megrim';
+    font-size: 128px;
+    font-weight: 500;
+    line-height: 149.76px;
+    text-align: left;
+
+    color: white;
+}
+
+.left_buttons {
+    list-style-type: none;
+    position: relative;
+    left: 940px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.left_buttons li {
+    margin-bottom: 46px;
+}
+
+.left_buttons li > button {
+    border: none;
+    background-color: white;
+}
+
+.trash_can_button {
+    position: relative;
+
+    background-image: url(images/Иконка-Корзина.png);
+    width: 30px;
+    height: 30px;
+    left: -4px;
+}
+
+.person_account_button {
+    position: relative;
+
+    background-image: url(images/Иконка-Профиля.png);
+
+    width: 20px;
+    height: 20px;
+}
+
+.heart_button {
+    position: relative;
+    background-image: url(images/Иконка-Лайк.png);
+
+    width: 22px;
+    height: 22px;
+}
+
+.lens_button {
+    position: relative;
+    background-image: url(images/Иконка-Поиск.png);
+    width: 25px;
+    height: 25px;
+}
+
+.denim_text {
+    position: relative;
+    left: 60%;
+    bottom: 95%;
+
+    width: 581px;
+    height: 185px;
+    rotate: 90deg;
+
+    font-family: 'Roboto';
+    font-size: 180px;
+    font-weight: 600;
+    line-height: 210.94px;
+    text-align: center;
+    color: #D8D8D899;
+
+    padding: 0;
+    margin: 0;
+}
+
+.adresses {
+    position: absolute;
+    width: 174px;
+    height: 67px;
+
+    left: 70px;
+    top: 671px;
+
+    color: #000000B2;
+    
+    font-family: 'Roboto';
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22.27px;
+    text-align: left;
+}
+
+.adresses_href {
+    color: #000000B2;
+    text-decoration: none;
+}
+
+.point_and_arrows {
+    position: absolute;
+    width: 573px;
+    height: 20px;
+    top: 718px;
+    left: 487px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
