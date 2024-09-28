@@ -7,6 +7,11 @@
     src: url(fonts/Roboto-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'Khula';
+    src: url(fonts/Khula-Regular.ttf);
+}
+
 html {
     display: flex;
     flex-wrap: wrap;
@@ -178,5 +183,147 @@ body {
     left: 487px;
     gap: 0px;
     opacity: 0px;
+}
+
+.two_images {
+    position: absolute;
+    width: 1046.35px;
+    height: 565px;
+    top: 869px;
+    left: 270px;
+    gap: 0px;
+    opacity: 0px;    
+}
+
+.mans_image {
+    width: 516.09px;
+    height: 565px;
+}
+
+.womans_image {
+    position: relative;
+    width: 516.09px;
+    height: 565px;
+    left: 15px;
+}
+
+.middle_text {
+    position: absolute;
+    width: 978px;
+    height: 482px;
+    top: 1537px;
+    left: 246px;
+
+    font-family: 'Khula';
+    font-size: 18.5px;
+    font-weight: 400;
+    line-height: 25.69px;
+    text-align: left;
+}
+
+.heading {
+    font-family: 'Khula';
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 51.38px;
+    text-align: left;
+
+    width: 977px;
+    height: 93px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+.first_pharagraf {
+    width: 793px;
+    height: 73px;
+    margin-bottom: 30px;
+}
+.second_pharagraf {
+    width: 755px;
+    height: 101px;
+    margin-bottom: 30px;
+}
+.third_pharagraf {
+    width: 716px;
+    height: 48px;
+    margin-bottom: 30px;
+}
+.third_pharagraf a {
+    text-decoration: none;
+    color: grey;
+}
+
+.end_text {
+    width: 793px;
+    height: 73px;
+    font-weight: 900;
+}
+
+.subscribe_text {
+    position: absolute;
+    width: 1047px;
+    height: 418px;
+    top: 2148px;
+    left: 270px;
+    background: #CBCBCB33;
+
+    text-align: center;
+
+}
+
+.subscribe_us_text {
+
+    font-family: 'Khula';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 51.38px;
+    text-align: center;
+}
+
+.discount_info_text {
+
+    font-family: 'Khula';
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20.87px;
+
+    color: #000000;    
+}
+
+.email_button {
+    position: relative;
+
+    width: 200px;
+    height: 65px;
+
+    border: 1px 0px 0px 0px;
+    background: #F5F5F5;
+    border: 1px solid #0000004A;
+
+    margin-right: 45px;
+}
+
+.subscribe_button {
+    position: relative;
+    width: 200px;
+    height: 65px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background: #000000;
+    border: 1px solid #000000;
     
+    margin-left: 45px;
+
+    color: #FFFFFF;
+}
+
+.confidence_policy {
+    font-family: 'Roboto';
+    font-size: 8px;
+    font-weight: 300;
+    line-height: 9.38px;
+    text-align: center;
+    color: #828282;
+    
+    margin-top: 50px;
 }
