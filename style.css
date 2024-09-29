@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: 'Khula';
-    src: url(fonts/Khula-Regular.ttf);
+    src: url(fonts/Khula-SemiBold.ttf);
 }
 
 html {
@@ -268,12 +268,13 @@ body {
     background: #CBCBCB33;
 
     text-align: center;
+    font-family: 'Khula';
 
 }
 
 .subscribe_us_text {
 
-    font-family: 'Khula';
+    font-family: 'Roboto';
     font-size: 32px;
     font-weight: 700;
     line-height: 51.38px;
@@ -282,7 +283,7 @@ body {
 
 .discount_info_text {
 
-    font-family: 'Khula';
+    font-family: 'Roboto';
     font-size: 13px;
     font-weight: 400;
     line-height: 20.87px;
@@ -301,6 +302,8 @@ body {
     border: 1px solid #0000004A;
 
     margin-right: 45px;
+
+    font-size: 20px;
 }
 
 .subscribe_button {
@@ -315,15 +318,159 @@ body {
     margin-left: 45px;
 
     color: #FFFFFF;
+
+    font-size: 20px;
 }
 
 .confidence_policy {
     font-family: 'Roboto';
-    font-size: 8px;
+    font-size: 10px;
     font-weight: 300;
     line-height: 9.38px;
     text-align: center;
     color: #828282;
     
     margin-top: 50px;
+}
+
+.footer_hrefs {
+    position: absolute;
+    width: 798px;
+    height: 459px;
+    top: 2692px;
+    left: 270px;
+    list-style-type: none;
+}
+
+.for_buyers {
+    display: inline-block;
+    width: 248px;
+    height: 459px;
+
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+
+    list-style-type: none;
+    margin-right: 182px;
+    
+}
+
+.about_company {
+    display: inline-block;
+    width: 248px;
+    height: 142px;
+
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    text-align: left;
+
+    list-style-type: none;
+
+    position: relative;
+    bottom: 62.5%;
+}
+
+.for_buyers li {
+    line-height: 36px;
+}
+
+.for_buyers a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.about_company li {
+    line-height: 36px;
+}
+
+.about_company a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.tg_logo {
+    position: absolute;
+    background-image: url(images/Telegram\ App.png);
+    width: 30px;
+    height: 30px;
+    top: 3308px;
+    left: 270px;
+}
+
+.vk_logo {
+    position: absolute;
+    background-image: url(images/VK\ Circled.png);
+    width: 30px;
+    height: 30px;
+    top: 3308px;
+    left: 350px;
+}
+
+.inst_logo {
+    position: absolute;
+    background-image: url(images/Instagram.png);
+    width: 30px;
+    height: 30px;
+    top: 3308px;
+    left: 430px;
+}
+
+.app_logo {
+    position: absolute;
+    background-image: url(images/Apple\ Logo.png);
+    width: 40px;
+    height: 40px;
+    top: 3298px;
+    left: 644px;
+}
+
+.dowload_appstore {
+    position: absolute;
+    width: 97px;
+    height: 39px;
+    top: 3286px;
+    left: 684px;
+}
+
+.dowload_appstore span {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    text-align: left;
+}
+
+.googleplay_logo {
+    position: absolute;
+    background-image: url(images/Google\ Play.png);
+    width: 40px;
+    height: 40px;
+    top: 3298px;
+    left: 965px;
+}
+
+.dowload_googleplay {
+    position: absolute;
+    width: 166px;
+    height: 36px;
+    top: 3288px;
+    left: 1014px;
+    font-family: 'Roboto';
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 15.23px;
+    text-align: left;
+}
+
+.dowload_googleplay span {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.44px;
+    text-align: left;
 }
